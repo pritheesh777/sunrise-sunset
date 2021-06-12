@@ -33,10 +33,10 @@ background(backgroundImg)
 textSize(20)
 if(time>=12){
     console.log(time)
-    text("time",time+"am",200,200)
+    text("time",time%12+"am",200,200)
 }else{
     console.log(time)
-    text("time",time+"pm",200,200)
+    text("time",time%12"pm",200,200)
 }
 }
 

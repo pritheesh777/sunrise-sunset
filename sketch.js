@@ -36,7 +36,7 @@ if(time>=12){
     text("time"+time%12+"am",200,200)
 }else{
     console.log(time)
-    text("time"+time%12"pm",200,200)
+    text("time"+time%12+"pm",200,200)
 }
 }
 
